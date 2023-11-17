@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Starbucks Landing Page</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+</head>
+
+<body>
+    <div class="circle"></div>
+    <div class="navbar">
+        <img src="./Images/logo.png" alt="" class="logo">
+        <div class="toggle" onclick="menuToggle()">
+
+        </div>
+        <div class="nav--text navigation">
+            
+                <li><a href="#" class="nav-item">Home</a></li>        
+                <li><a href="#" class="nav-item">Menu</a></li>            
+                <li><a href="#" class="nav-item">What's New</a></li>
+                <li><a href="#" class="nav-item">Contact</a></li>
+            
+        </div>
+
+    </div>
+    <div class="container">
+        <div class="details">
+            <h1>It's not just Coffee <br>
+                It's <span id="Starbucks--text"> Starbucks</span></h1>
+            <p>
+                Step into a world where each cup of coffee tells a story, and every visit to Starbucks is a moment to
+                savor. Welcome to our virtual haven, where the irresistible aroma of freshly brewed coffee mingles with
+                the promise of exceptional experiences. At Starbucks, we go beyond the ordinary, offering not just a
+                beverage but a ritual—a journey through flavors, crafted with precision and care.</p>
+            <button id="btn-learnMore" class="btn-learnMore">Learn More</button>
+
+        </div>
+        <div class="img">
+            <img src="./Images/img1.png" alt="" class="starbucks">
+        </div>
+        <div class="thumb-img-container">
+            <img src="./Images/thumb1.png" alt="" class="thumb-img"
+                onclick="imgChanger('./Images/img1.png'); circleColorChanger('#156043')">
+            <img src="./Images/thumb2.png" alt="" class="thumb-img"
+                onclick="imgChanger('./Images/img2.png'); circleColorChanger('#eb7495')">
+            <img src="./Images/thumb3.png" alt="" class="thumb-img"
+                onclick="imgChanger('./Images/img3.png'); circleColorChanger('#d752b1')">
+        </div>
+        <div class="social-media">
+            <a href=""><i class="fa-brands fa-facebook social-icon"></i></a>
+            <a href=""><i class="fa-brands fa-twitter social-icon"></i></a>
+            <a href=""><i class="fa-brands fa-instagram social-icon"></i></a>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/d606617640.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
+<script src="script.js"></script>
+</body>
+
+</html>
